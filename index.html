@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Cuevana Clone</title>
+</head>
+<body>
+    <!-- Menú de Navegación -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">cuevana<span>3</span></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Inicio</a></li>
+            <li class="dropdown">
+                <a href="#">Películas</a>
+                <div class="dropdown-content">
+                    <a href="#">Últimas publicadas</a>
+                    <a href="#">Estrenos</a>
+                    <a href="#">Tendencias semana</a>
+                    <a href="#">Tendencias día</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#">Series</a>
+                <div class="dropdown-content">
+                    <a href="#">Últimas publicadas</a>
+                    <a href="#">Estrenos</a>
+                    <a href="#">Tendencias semana</a>
+                    <a href="#">Tendencias día</a>
+                </div>
+            </li>
+            <li><a href="#landing-page-explanation" class="landing-page-link">Explicación de Landing Page</a></li>
+            <li><input type="text" class="search-bar" placeholder="Buscador..."></li>
+        </ul>
+    </nav>
+
+    <!-- Carrusel Principal -->
+    <section class="carousel">
+        <div class="carousel-slide">
+            <img src="images/g1.jpg" alt="Imagen Carrusel">
+            <div class="carousel-overlay"></div>
+            <div class="carousel-content">
+                <h1>Robot salvaje</h1>
+                <p>Un robot - ROZZUM unidad 7134, "Roz" para abreviar - naufraga en una isla deshabitada y debe aprender a adaptarse al duro entorno, estableciendo gradualmente relaciones con los animales de la isla y convirtiéndose...</p>
+                <button class="watch-button">Ver Película</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contenedor de Películas Online y Películas Destacadas -->
+    <div class="movies-featured-container">
+        <!-- Películas Online -->
+        <section class="movies-section">
+            <h2>Películas Online</h2>
+            <div class="tabs">
+            <a href="#ultimas" class="tab-link active">Últimas</a>
+                <a href="#tendencias" class="tab-link">Tendencias</a>
+                <a href="#estrenos" class="tab-link">Estrenos</a>
+            </div>
+            <div id="ultimas" class="tab-content active">
+                <div class="movie-list">
+                    <div class="movie-item">
+                        <img src="images/g1.jpg" alt="Red One">
+                        <p>Código: Traje rojo (2024)</p>
+                        <div class="movie-detail">
+                            <h3>Red One</h3>
+                            <p>Después de una misión para salvar la Navidad, se desatan múltiples aventuras llenas de acción y humor.</p>
+                            <p>Género: Acción, Comedia</p>
+                        </div>
+                    </div>
+                    <div class="movie-item">
+                        <img src="images/g1.jpg" alt="Red One">
+                        <p>Código: Traje rojo (2024)</p>
+                        <div class="movie-detail">
+                            <h3>Red One</h3>
+                            <p>Después de una misión para salvar la Navidad, se desatan múltiples aventuras llenas de acción y humor.</p>
+                            <p>Género: Acción, Comedia</p>
+                        </div>
+                    </div>
+                    <div class="movie-item">
+                        <img src="images/g1.jpg" alt="Red One">
+                        <p>Código: Traje rojo (2024)</p>
+                        <div class="movie-detail">
+                            <h3>Red One</h3>
+                            <p>Después de una misión para salvar la Navidad, se desatan múltiples aventuras llenas de acción y humor.</p>
+                            <p>Género: Acción, Comedia</p>
+                        </div>
+                    </div>
+                    <div class="movie-item">
+                        <img src="images/g1.jpg" alt="Red One">
+                        <p>Código: Traje rojo (2024)</p>
+                        <div class="movie-detail">
+                            <h3>Red One</h3>
+                            <p>Después de una misión para salvar la Navidad, se desatan múltiples aventuras llenas de acción y humor.</p>
+                            <p>Género: Acción, Comedia</p>
+                        </div>
+                    </div>
+                    <div class="movie-item">
+                        <img src="images/p1-1.jpeg" alt="Un Hombre Diferente">
+                        <p>Un Hombre Diferente (2024)</p>
+                        <div class="movie-detail">
+                            <h3>Un Hombre Diferente</h3>
+                            <p>Un hombre debe enfrentarse a su pasado cuando inesperados sucesos cambian su vida para siempre.</p>
+                            <p>Género: Drama</p>
+                        </div>
+                    </div>
+                    <div class="movie-item">
+                        <img src="images/g1.jpg" alt="Red One">
+                        <p>Código: Traje rojo (2024)</p>
+                        <div class="movie-detail">
+                            <h3>Red One</h3>
+                            <p>Después de una misión para salvar la Navidad, se desatan múltiples aventuras llenas de acción y humor.</p>
+                            <p>Género: Acción, Comedia</p>
+                        </div>
+                    </div>
+                    <div class="movie-item">
+                        <img src="images/p2-1.jpeg" alt="Dogman">
+                        <p>Dogman: Vida Inquebrantable (2023)</p>
+                        <div class="movie-detail">
+                            <h3>Dogman</h3>
+                            <p>La historia de un hombre cuyo vínculo con los perros lo lleva a descubrir un propósito inesperado en la vida.</p>
+                            <p>Género: Drama, Suspenso</p>
+                        </div>
+                    </div> 
+                    <div class="movie-item">
+                        <img src="images/g1.jpg" alt="Red One">
+                        <p>Código: Traje rojo (2024)</p>
+                        <div class="movie-detail">
+                            <h3>Red One</h3>
+                            <p>Después de una misión para salvar la Navidad, se desatan múltiples aventuras llenas de acción y humor.</p>
+                            <p>Género: Acción, Comedia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tendencias" class="tab-content">
+                <div class="movie-list">
+                    <div class="movie-item">
+                        <img src="images/g5.jpg" alt="Película Tendencia 1">
+                        <p>Película Tendencia 1 (2024)</p>
+                        <div class="movie-detail">
+                            <h3>Película Tendencia 1</h3>
+                            <p>Resumen de la película tendencia 1.</p>
+                            <p>Género: Ciencia Ficción</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="estrenos" class="tab-content">
+                <div class="movie-list">
+                    <div class="movie-item">
+                        <img src="images/g6.jpg" alt="Película Estreno 1">
+                        <p>Película Estreno 1 (2024)</p>
+                        <div class="movie-detail">
+                            <h3>Película Estreno 1</h3>
+                            <p>Resumen de la película estreno 1.</p>
+                            <p>Género: Aventura</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Películas Destacadas -->
+        <aside class="featured-movies">
+            <h2>Películas Destacadas</h2>
+            <div class="tabs-featured">
+                <a href="#destacadas-dia" class="tab-link-featured active">Día</a>
+                <a href="#destacadas-semana" class="tab-link-featured">Semana</a>
+            </div>
+            <div id="destacadas-dia" class="tab-content-featured active">
+                <div class="featured-list">
+                    <div class="featured-item">
+                        <img src="images/g1.jpg" alt="My Old Ass">
+                        <p>My Old Ass | 6.8/10 | 1h 29min | 2024</p>
+                    </div>
+                    <div class="featured-item">
+                        <img src="images/g2.jpg" alt="Guasón 2">
+                        <p>Guasón 2: Folie à Deux | 5.7/10 | 2h 18min | 2024</p>
+                    </div>
+                </div>
+            </div>
+            <div id="destacadas-semana" class="tab-content-featured">
+                <div class="featured-list">
+                    <div class="featured-item">
+                        <img src="images/l2.jpg" alt="La Sustancia">
+                        <p>La Sustancia | 7.3/10 | 2h 20min | 2024</p>
+                    </div>
+                    <div class="featured-item">
+                        <img src="images/l3.jpg" alt="Código: Traje Rojo">
+                        <p>Código: Traje Rojo | 8.2/10 | 2h 04min | 2024</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Series Online -->
+    <section class="series-section">
+        <h2>Series Online</h2>
+        <div class="tabs">
+            <a href="#ultimas" class="tab-link-series active">Últimas</a>
+        </div>
+        <div id="series-ultimas" class="tab-content-series active">
+            <div class="series-list">
+                <div class="series-item">
+                    <img src="images/l4.jpg" alt="Citadel Honey Bunny">
+                    <p>Citadel Honey Bunny | 1 Temporada</p>
+                    <div class="series-detail">
+                        <h3>Citadel Honey Bunny</h3>
+                        <p>Acción y espionaje se mezclan en esta serie cargada de adrenalina.</p>
+                    </div>
+                </div>
+                <div class="series-item">
+                    <img src="images/l5.jpg" alt="The Equalizer">
+                    <p>The Equalizer | 5 Temporadas</p>
+                    <div class="series-detail">
+                        <h3>The Equalizer</h3>
+                        <p>Una mujer misteriosa se convierte en la defensora de los indefensos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <center><button class="load-more">Cargar más series</button></center>
+    </section>
+
+    <!-- Explicación de la Landing Page -->
+    <section id="landing-page-explanation">
+        <h2>Explicación de Landing Page</h2>
+        <div class="explanation-cards">
+            <div class="card">
+                <h3>Jhoana Nicol Calderón Quispe</h3>
+                <p>landing page o página de aterrizaje es una página web diseñada específicamente para convertir visitantes en leads o clientes, enfocándose en un objetivo concreto, como la promoción de un producto, la recopilación de información o la inscripción a un servicio. A diferencia de las páginas de inicio convencionales, que pueden tener múltiples enlaces y opciones de navegación, una landing page está optimizada para guiar al usuario hacia una acción específica, utilizando elementos como formularios, llamadas a la acción (CTA) y contenido persuasivo. </p>
+            </div>
+            <div class="card">
+                <h3>José Mamani</h3>
+                <p>Una landing page es una herramienta estratégica en marketing digital diseñada específicamente para dirigir al visitante hacia una acción puntual y medible. Es una página web enfocada y sin distracciones, donde cada elemento—desde el encabezado hasta el llamado a la acción—está meticulosamente creado para captar la atención, generar interés inmediato y convertir ese interés en una acción concreta, como una suscripción, una descarga o una compra. Funciona como un imán que atrae y canaliza el tráfico hacia un objetivo definido, optimizando así la eficacia de las campañas y maximizando el retorno de inversión.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preguntas Frecuentes -->
+    <section class="faq">
+        <h2>Preguntas Frecuentes</h2>
+        <div class="faq-item">¿Qué es Cuevana? <span>+</span></div>
+        <div class="faq-item">¿Cuevana 3 está disponible? <span>+</span></div>
+        <div class="faq-item">¿Tengo que pagar? <span>+</span></div>
+        <div class="faq-item">¿Cómo se llama Cuevana ahora? <span>+</span></div>
+        <div class="faq-item">Descarga y Disfruta de tus películas favoritas <span>+</span></div>
+        <div class="faq-item">Cuando quieras, donde quieras <span>+</span></div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/menu.png" alt="Cuevana logo" class="botton-img">
+            </div>
+            <p>Términos y Condiciones</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón para volver arriba -->
+    <button class="back-to-top">&#8679;</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
